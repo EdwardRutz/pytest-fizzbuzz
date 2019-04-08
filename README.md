@@ -1,7 +1,7 @@
 # TDD and Python FizzBuzz Kata
 
->Practicing TDD with Python
->-Fizz Buzz prints "Fizz" for numbers that are multiples of 3, "Buzz" for multiples of 5 and "FizzBuzz" for multioples of 3 and 5.
+>Practicing TDD with Python.  
+>Fizz Buzz prints "Fizz" for numbers that are multiples of 3, "Buzz" for multiples of 5 and "FizzBuzz" for multioples of 3 and 5.
 
 ## Dependencies
 
