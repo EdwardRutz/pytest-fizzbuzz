@@ -22,7 +22,9 @@
 
 - Red, Green, Refactor
 - Write the simplest test possible then write just enough code to get it to pass
-
+- Set git username, `git config --global user.name "Mona Lisa"`
+- Check git username, `git config --global user.name`
+- Python uses four spaces to indent code and does not use tabs
 
 
 ## Sources
