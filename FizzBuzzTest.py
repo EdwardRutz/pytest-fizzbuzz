@@ -4,6 +4,8 @@ import pytest
 # "FizzBuzz" for multioples of 3 and 5.
 def fizzBuzz( value ):
     if isMultiple(value, 3):
+        if isMultiple(value, 5):
+            return "FizzBuzz"
         return "Fizz"
     if isMultiple(value, 5):
         return "Buzz"
@@ -49,7 +51,8 @@ def test_returnBuzzWith10PassedIn():
     checkFizzBuzz(10, "Buzz")
 
 # Get Fizz Buzz when I pass in 15 (a multiple of 3 and 5)
-
+def test_returnFizzBuzzWith15PassedIn():
+    checkFizzBuzz(15, "FizzBuzz")
 
 
 
