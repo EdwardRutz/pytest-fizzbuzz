@@ -1,7 +1,7 @@
 # TDD and Python FizzBuzz Kata
 
 >Practicing TDD with Python.  
->Fizz Buzz prints "Fizz" for numbers that are multiples of 3, "Buzz" for multiples of 5 and "FizzBuzz" for multiples of 3 and 5.
+>Fizz Buzz prints "Fizz" for numbers that are multiples of 3, "Buzz" for multiples of 5 and "FizzBuzz" for multioples of 3 and 5.
 
 ## Dependencies
 
@@ -22,10 +22,16 @@
 
 - Red, Green, Refactor
 - Write the simplest test possible then write just enough code to get it to pass
+- Pytest verbose mode, `pytest -v `
 - Set git username, `git config --global user.name "Mona Lisa"`
 - Check git username, `git config --global user.name`
 - Python uses four spaces to indent code and does not use tabs
 
+### Pytest Naming Conventions
+
+- Test functions should start with the word "test"
+- Classes should start with "Test". Note the capitol "T"
+- Filesnames of test modules should start or end with test, "test_example.py"
 
 ## Sources
 
